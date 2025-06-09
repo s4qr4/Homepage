@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang! Silakan Pilih Generator</title>
+    <!-- Memuat Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Memuat Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Menggunakan font Inter sebagai default */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 flex items-center justify-center min-h-screen p-4">
+
+    <!-- Kontainer Utama -->
+    <div class="w-full max-w-4xl mx-auto text-center py-12">
+
+        <!-- Judul dan Subjudul -->
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Pilih Generator</h1>
+        <p class="text-md md:text-lg text-gray-600 mb-12">free prompt generator untuk gemini VEO2 dan VEO3</p>
+
+        <!-- Kontainer Pilihan -->
+        <div class="flex flex-col md:flex-row justify-center items-stretch gap-8">
+
+            <!-- Pilihan 1: Seluruh area ini bisa diklik -->
+            <!-- Ganti URL di href dengan link tujuan Anda -->
+            <a href="#" 
+               class="group w-full md:w-1/2 bg-white p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col items-center text-center md:items-start md:text-left gap-4">
+                
+                <!-- Ikon untuk Pilihan 1 -->
+                <div class="bg-blue-100 text-blue-600 rounded-lg w-12 h-12 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v11.494m-9-5.747h18" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12a7.5 7.5 0 11-15 0 7.5 7.5 0 0115 0z" />
+                    </svg>
+                </div>
+                
+                <!-- Judul -->
+                <h2 class="text-xl font-bold text-gray-900">GENERATOR IKLAN</h2>
+            </a>
+
+            <!-- Pilihan 2: Seluruh area ini bisa diklik -->
+            <!-- Ganti URL di href dengan link tujuan Anda -->
+            <a href="#" 
+               class="group w-full md:w-1/2 bg-white p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col items-center text-center md:items-start md:text-left gap-4">
+                
+                <!-- Ikon untuk Pilihan 2 -->
+                <div class="bg-teal-100 text-teal-600 rounded-lg w-12 h-12 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                </div>
+                
+                <!-- Judul -->
+                <h2 class="text-xl font-bold text-gray-900">GENERATOR FOTO DAN VIDEO</h2>
+            </a>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-12 text-sm text-gray-500">
+            &copy; <span id="year"></span> sakura. Seluruh hak cipta dilindungi.
+        </footer>
+    </div>
+
+    <script>
+        // Menampilkan tahun saat ini di footer secara dinamis
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
